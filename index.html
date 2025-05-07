@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Voice Widget Embed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/main.tsx"></script>
+  </head>
+  <body>
+    <!-- Nothing here: React will inject into DOM dynamically -->
+  </body>
+  <h1>Test Website</h1>
+  <p>This is a static website that loads a voice widget script.</p>
+
+    <!-- Embed Script Tag -->
+    <script
+      data-widget="voice-widget"
+      src="/widget/index.tsx"
+      type="module"
+      data-api-key="3eae8bf9-6b55-4fce-8db4-ed97350be9b8"
+      data-assistant-id="6e0244e7-f5f4-43c8-9895-ef3d623a57cc"
+      data-color-idle="#000000"
+      data-color-connecting="#FFA500"
+      data-color-calling="#FF4D4D"
+      data-logo="/src/assets/voice-agent-icon.png"
+      data-text-idle="Talk to David"
+      data-text-connecting="Connecting..."
+      data-text-calling="End Call"
+      data-icon-idle="https://spefsolutions.com/icons/phone-1.svg"
+      data-icon-connecting="https://spefsolutions.com/icons/phone-1.svg"
+      data-icon-calling="https://spefsolutions.com/icons/phone-off.svg"
+      data-show-waveform="true"
+      data-waveform-color="#d32f2f"
+    ></script>
+  </body>
+</html>
